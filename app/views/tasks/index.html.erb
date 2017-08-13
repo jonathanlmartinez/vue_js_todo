@@ -1,0 +1,8 @@
+<div id="app">
+  <h4> Tasks</h4>
+    <li v-for="task in tasks"> {{ task }} </li>
+  <h4> Add a new task </h4>
+    <input type="text" v-model="newTask">
+    <button v-on:click="addNewTask">Add Task</button>
+</div>
+
